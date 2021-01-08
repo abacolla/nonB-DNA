@@ -45,8 +45,8 @@ twoBitToFa may be obtained from the UCSC genome browser at http://hgdownload.cse
 Step 2 - run nonB DNA scripts
 Option A - run all records serially
 ./dr_get.sh fastaList.fa (make sure dr_get.sh is executable - chmod 700 dr_get.sh)
-Option B - run each record on separate processors in parallel
-csplit -s -n 2 -f bin_ fastaList.fa '/^>/' '{*}'# get 31 files from bin_01 to bin_31
+Option B - run each record on separate processors in parallel (HPC cluster)
+csplit -s -n 2 -f bin_ fastaList.fa '/^>/' '{*}' # get 31 files from bin_01 to bin_31
 
 rm bin_00
 ./makeFile.sh h
@@ -54,6 +54,10 @@ rm bin_00
 ./makeFile.sh g4
 ./makeFile.sh dr
 ./makeFile.sh ir
+Submit job to scheduler as per HPC instructions with following directive (for dr for example; dr_ is the prefix of bash files)
+ibrun (or mpirun as per HPC instructions) vga_submitMpiJob dr_ 
+Note1: for vga_submitMpiJob see c++ files
+Note2: load modules mpich and mvapich2 if not already loaded
 
 
 
