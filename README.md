@@ -25,5 +25,5 @@ rm bin_00
 ./makeFile.sh ir
 Submit job to scheduler as per HPC instructions with the following directive (for dr for example)
 ibrun (or mpirun as per HPC instructions) vga_submitMpiJob dr_
-Note1: for vga_submitMpiJob see c++ files
+Note1: for vga_submitMpiJob see the submitMpi repository
 Note2: load the same modules (mpich and mvapich2) used to compile the c++ script
