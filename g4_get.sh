@@ -39,8 +39,8 @@ done
 }
 
   # Step 2 -- Body 
-csplit -s -n 2 -f $1_ $1 '/^>/' '{*}'
-for v in ${1}_[0-9][0-9]
+csplit -s -n 3 -f $1_ $1 '/^>/' '{*}'
+for v in ${1}_[0-9][0-9][0-9]
 do
   if [[ -s $v ]]
   then
@@ -53,7 +53,7 @@ do
     e=$(( $i + 1 - $j ))
     u=$(( $i / 2 ))
     w=$1  
-    gawk '/^>/' $v >> $1_q1k
+    awk '/^>/' $v >> $1_q1k
       while [[ "$n" -le "$e" ]]
       do
         stem_ab
@@ -63,5 +63,5 @@ do
         rm $v
   fi
 done
-rm $1_00
+rm $1_000
 exit 0 ;
