@@ -50,13 +50,13 @@ done
 }
 
   # Step 2 -- Body 
-csplit -s -n 2 -f $1_ $1 '/^>/' '{*}'
-for v in ${1}_[0-9][0-9]
+csplit -s -n 3 -f $1_ $1 '/^>/' '{*}'
+for v in ${1}_[0-9][0-9][0-9]
 do
   if [[ -s $v ]]
   then
     j=7; k=30; h=7; n=0; s=0; t=0  
-    a="`gawk '!/^>/ { printf "%s", $0 }; END { printf "%s", "\n" }' $v`"
+    a="`awk '!/^>/ { printf "%s", $0 }; END { printf "%s", "\n" }' $v`"
     o=`grep ">" $v | tr '>:-' ' ' | cut -d ' ' -f2`
     p=`grep ">" $v | tr '>:-' ' ' | cut -d ' ' -f3`
     q=`grep ">" $v | tr '>:-' ' ' | cut -d ' ' -f4`
@@ -64,7 +64,7 @@ do
     e=$(( $i + 1 - 2 * $j ))
     u=$(( $i / 2 ))
     w=$1  
-    gawk '/^>/' $v >> $1_ir
+    awk '/^>/' $v >> $1_ir
       while [[ "$n" -le "$e" ]]
       do
         stem_ab
@@ -74,5 +74,5 @@ do
         rm $v
   fi
 done
-rm $1_00
+rm $1_000
 exit 0 ;
