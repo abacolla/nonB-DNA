@@ -26,6 +26,6 @@ rm bin_00
 ./makeFile.sh g4
 ./makeFile.sh dr
 ./makeFile.sh ir
-Submit job to scheduler as per HPC instructions (for dr for example)
+Submit job to scheduler as per HPC instructions (see launchJob.sh for an example)
 ibrun (or mpirun depending on HPC instructions) vga_submitMpiJob drdna_ # for vga_submitMpiJob see the submitMpi repository
 
