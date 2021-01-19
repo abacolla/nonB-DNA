@@ -30,8 +30,8 @@ Submit job to scheduler as per HPC instructions (see launchJob.sh for an example
 ibrun (or mpirun depending on HPC instructions) vga_submitMpiJob drdna_ # for vga_submitMpiJob see the submitMpi repository
 
 Step 3 - process output
-The output consists of:
+The output consists of a number of files containing:
 chr number, hg38 coordinate, length, distance from start and end of sequence to center of fasta sequence, sequence (dr, g4, z)
 chr number, hg38 coordinate, length of stem, length of loop, distance from center loop to center of fasta sequence, sequence of both stems (h, ir)
-
-
+Use hir_getRes.sh to extract the number of tracts for the files with triplex (h) and ir sequences.
+Use
