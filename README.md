@@ -31,7 +31,7 @@ ibrun (or mpirun depending on HPC instructions) vga_submitMpiJob drdna_ # for vg
 
 Step 3 - process output
 The output consists of a number of files containing:
-chr number, hg38 coordinate, length, distance from start and end of sequence to center of fasta sequence, sequence (dr, g4, z)
-chr number, hg38 coordinate, length of stem, length of loop, distance from center loop to center of fasta sequence, sequence of both stems (h, ir)
-Use nonB_getRes.sh to extract the number of tracts.
+chr number, hg38 coordinate, length, distance from start and end of sequence to center of fasta sequence, sequence (for dr, g4, z)
+chr number, hg38 coordinate, length of stem, length of loop, distance from center loop to center of fasta sequence, sequence of both stems (for h, ir)
+Use nonB_getRes.sh to extract the number of tracts - Usage: nonB_getRes file_suffix(dr | ir | q1k | z1k | triplex).
 
