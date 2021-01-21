@@ -2,7 +2,7 @@
 
 if [[ $# -ne 1 ]]
 then
-  echo -e "\nUsage: nonB_getRes file_suffix(dr | ir | q1k | z1k | triplex)\n"
+  echo -e "\nUsage: nonB_getRes.sh file_suffix(dr | ir | q1k | z1k | triplex)\n"
   exit 1
 fi
 
