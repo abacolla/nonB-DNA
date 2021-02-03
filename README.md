@@ -18,7 +18,7 @@ Option A - run serially
 ./dr_get.sh fastaList.fa (dr_get.sh must be executable - chmod 700 dr_get.sh)
 Option B - run in parallel on multiple processors
 do:
-csplit -s -n 2 -f bin_ fastaList.fa '/^>/' '{*}' # generates 31 files from bin_00 to bin_31
+csplit -s -n 2 -f bin_ fastaList.fa '/^>/' '{*}' ; generates 31 files from bin_00 to bin_31
 
 rm bin_00
 ./makeFile.sh h
