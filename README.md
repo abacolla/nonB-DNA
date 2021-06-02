@@ -1,17 +1,18 @@
 # nonB-DNA
-Synopsis: search for nonB DNA-forming sequences in fasta files. 
 
-Usage: script.sh myfile
+* Synopsis: search for nonB DNA-forming sequences in fasta files. 
 
-Note: myfile contains up to 1000 fasta records obtained through the twoBitToFa utility, i.e. each header reads, for example, >chr1:1000-2000. Typically each fasta record is 1 - 10 kb but size may vary.
+* Usage: script.sh myfile
 
-Motivating Example:
+* Note: myfile contains up to 1000 fasta records obtained through the twoBitToFa utility, i.e. each header reads, for example, >chr1:1000-2000. Typically each fasta record is 1 - 10 kb but size may vary.
+
+* Motivating Example:
 
 Step 1 - get fasta sequences.
 Given a file named "fastaList" (see enclosed) containing 31 fasta coordinates:
 do:
 twoBitToFa -noMask -seqList=fastaList hg38.2bit fastaList.fa
-twoBitToFa may be obtained from the UCSC genome browser at http://hgdownload.cse.ucsc.edu/admin/exe and selecting the appropriate platform. hg38.2bit may be obtained from http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/.
+twoBitToFa may be obtained from the [UCSC genome browser](http://hgdownload.cse.ucsc.edu/admin/exe) and selecting the appropriate platform. hg38.2bit may be obtained [here](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/).
 
 Step 2 - run nonB DNA scripts
 Option A - run serially
