@@ -36,3 +36,10 @@ chr number, hg38 coordinate, length, distance from start and end of sequence to 
 chr number, hg38 coordinate, length of stem, length of loop, distance from center loop to center of fasta sequence, sequence of both stems (for h, ir)
 Use nonB_getRes.sh to extract the number of tracts - Usage: nonB_getRes.sh file_suffix(dr | ir | q1k | z1k | triplex).
 
+## References
+
+Bacolla et al. [Cancer mutational burden is shaped by G4 DNA, replication stress and mitochondrial dysfunction](https://www.sciencedirect.com/science/article/pii/S0079610718302426?via%3Dihub) *Prog. Biophys. Mol. Biol.* **147**, 47-61, 2019.
+
+Seo et al. [Replication-based rearrangements are a common mechanism for SNCA duplication in Parkinson's disease](https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.27998) *Mov. Disord.* **35**, 868-876, 2020.
+
+Bacolla et al. [Translocation and deletion breakpoints in cancer genomes are associated with potential non-B DNA-forming sequences](https://academic.oup.com/nar/article/44/12/5673/2457502) *Nucleic Acids Res.* **44**, 5673-5688, 2016.
