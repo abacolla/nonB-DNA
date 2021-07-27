@@ -38,6 +38,8 @@ Use nonB_getRes.sh to extract the number of tracts - Usage: nonB_getRes.sh file_
 
 ## References
 
+Chiacchia [Doubling Down](https://www.psc.edu/doubling-down/), Pittsburgh Supercomputing Center Science Highlights, 2020.
+
 Seo et al. [Replication-based rearrangements are a common mechanism for SNCA duplication in Parkinson's disease](https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.27998) *Mov. Disord.* **35**, 868-876, 2020.
 
 Bacolla et al. [Cancer mutational burden is shaped by G4 DNA, replication stress and mitochondrial dysfunction](https://www.sciencedirect.com/science/article/pii/S0079610718302426?via%3Dihub) *Prog. Biophys. Mol. Biol.* **147**, 47-61, 2019.
