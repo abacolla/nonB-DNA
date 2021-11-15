@@ -36,6 +36,10 @@ chr number, hg38 coordinate, length, distance from start and end of sequence to 
 chr number, hg38 coordinate, length of stem, length of loop, distance from center loop to center of fasta sequence, sequence of both stems (for h, ir)
 Use nonB_getRes.sh to extract the number of tracts - Usage: nonB_getRes.sh file_suffix(dr | ir | q1k | z1k | triplex).
 
+* g4_cxx
+
+This directory contains C++ scripts to search for G4-forming repteats in genomes. Have a fasta file for each chromosome sequence (i.e. chr1.fa, chr2.fa) and fill-in file vga_chrom_names.hpp with the chr list. 
+
 ## References
 
 Chiacchia [Doubling Down](https://www.psc.edu/doubling-down/), Pittsburgh Supercomputing Center Science Highlights, 2020.
