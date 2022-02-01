@@ -38,7 +38,7 @@ Use nonB_getRes.sh to extract the number of tracts - Usage: nonB_getRes.sh file_
 
 * g4_cxx
 
-This directory contains C++ scripts to search for G4-forming repteats in genomes. Have a fasta file for each chromosome sequence (i.e. chr1.fa, chr2.fa) and fill-in file vga_chrom_names.hpp with the chr list. 
+This directory contains C++ scripts to search for G4-forming repeats in genomes. Have a fasta file for each chromosome sequence (i.e. chr1.fa, chr2.fa, ...) and fill-in file vga_chrom_names.hpp with the chr list. Then when launching the g4_cxx binary it will automatically read the fasta files (one file per processor) in the current ditectory. 
 
 ## References
 
