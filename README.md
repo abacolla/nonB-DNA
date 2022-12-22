@@ -52,4 +52,4 @@ Bacolla et al. [Cancer mutational burden is shaped by G4 DNA, replication stress
 
 Bacolla et al. [Translocation and deletion breakpoints in cancer genomes are associated with potential non-B DNA-forming sequences](https://academic.oup.com/nar/article/44/12/5673/2457502) *Nucleic Acids Res.* **44**, 5673-5688, 2016.
 
-Fan et al. [Profiling human pathogenic repeat expansion regions by synergistic and multi‐level impacts on molecular connections] (https://link.springer.com/article/10.1007/s00439-022-02500-6) *Hum. Genet.* **Online ahead of print**, 2022.
+Fan et al. [Profiling human pathogenic repeat expansion regions by synergistic and multi‐level impacts on molecular connections](https://link.springer.com/article/10.1007/s00439-022-02500-6) *Hum. Genet.* **Online ahead of print**, 2022.
