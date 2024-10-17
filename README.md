@@ -36,7 +36,7 @@ chr number, hg38 coordinate, length, distance from start and end of sequence to 
 chr number, hg38 coordinate, length of stem, length of loop, distance from center loop to center of fasta sequence, sequence of both stems (for h, ir)
 Use nonB_getRes.sh to extract the number of tracts - Usage: nonB_getRes.sh file_suffix(dr | ir | q1k | z1k | triplex).
 
-* g4_cxx
+* g4_cxx (C++Quad)
 
 This directory contains C++ scripts to search for G4-forming repeats in genomes. Have a fasta file for each chromosome sequence (i.e. chr1.fa, chr2.fa, ...) and fill-in file vga_chrom_names.hpp with the chr list. Then when launching the g4_cxx binary it will automatically read the fasta files (one file per processor) in the current ditectory. 
 
