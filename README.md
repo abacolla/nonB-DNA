@@ -42,6 +42,8 @@ This directory contains C++ scripts to search for G4-forming repeats in genomes.
 
 ## References
 
+De-Paula et al. [Enriched G4 forming repeats in the human genome are associated with robust well-coordinated transcription and reduced cancer transcriptome variation](https://www.jbc.org/article/S0021-9258(24)02324-X/fulltext) *J. Biol. Chem.) **In Press**, 2024
+
 Fan et al. [Profiling human pathogenic repeat expansion regions by synergistic and multi‐level impacts on molecular connections](https://link.springer.com/article/10.1007/s00439-022-02500-6) *Hum. Genet.* **Online ahead of print**, 2022.
 
 Chiacchia [Doubling Down](https://www.psc.edu/doubling-down/), Pittsburgh Supercomputing Center Science Highlights, 2020.
